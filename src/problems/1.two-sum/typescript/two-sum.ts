@@ -1,14 +1,14 @@
 function twoSum(nums: number[], target: number): number[] {
-  // for each possible pair of numbers
+  const map: { [key: number]: number } = {};
+
   for (let i = 0; i < nums.length; i++) {
-    // excluding using the same elements more than once (main diagonal)
-    // and symmetrical of pairs ([a, b] == [b, a])
-    for (let j = i + 1; j < nums.length; j++) {
-      // if the numbers add up to the target and are not the same element
-      if (nums[i] + nums[j] == target && i != j) {
-        return [i, j];
-      }
+    // if the current value is in the hashmap
+    if (map[nums[i]] !== undefined) {
+      // return its complement's index from the hashmap and the current index
+      return [map[nums[i]], i];
     }
+    // else, associate the current index to the value's complement
+    map[target - nums[i]] = i;
   }
 
   throw new Error('No solution found.');
