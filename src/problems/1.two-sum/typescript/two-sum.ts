@@ -1,3 +1,9 @@
+/**
+ *
+ * @param nums An array of integers.
+ * @param target The target integer.
+ * @returns The indices of the 2 integers that add up to `target`.
+ */
 function twoSum(nums: number[], target: number): number[] {
   const map: { [key: number]: number } = {};
 
