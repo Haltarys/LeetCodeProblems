@@ -1,9 +1,16 @@
+/*
+ * @lc app=leetcode id=1 lang=typescript
+ *
+ * [1] Two Sum
+ */
+
 /**
  *
  * @param nums An array of integers.
  * @param target The target integer.
  * @returns The indices of the 2 integers that add up to `target`.
  */
+// @lc code=start
 function twoSum(nums: number[], target: number): number[] {
   const map: { [key: number]: number } = {};
 
@@ -19,5 +26,6 @@ function twoSum(nums: number[], target: number): number[] {
 
   throw new Error('No solution found.');
 }
+// @lc code=end
 
 export { twoSum };
