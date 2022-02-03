@@ -10,6 +10,8 @@
     "format": "prettier --write  \"src/**/*.ts\"",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --watchAll --verbose",
+    "ci": "yarn install --frozen-lockfile",
+    "build": "tsc",
     "prepare": "husky install"
   },
   "devDependencies": {
