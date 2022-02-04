@@ -5,10 +5,11 @@
  */
 
 /**
+ * Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
  *
  * @param nums An array of integers.
  * @param target The target integer.
- * @returns The indices of the 2 integers that add up to `target`.
+ * @returns The indices of the 2 integers in `nums` that add up to `target`.
  */
 // @lc code=start
 function twoSum(nums: number[], target: number): number[] {
