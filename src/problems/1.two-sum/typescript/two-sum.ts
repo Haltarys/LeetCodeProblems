@@ -12,7 +12,7 @@
  * @returns The indices of the 2 integers in `nums` that add up to `target`.
  */
 // @lc code=start
-function twoSum(nums: number[], target: number): number[] {
+export function twoSum(nums: number[], target: number): number[] {
   const map: { [key: number]: number } = {};
 
   for (let i = 0; i < nums.length; i++) {
@@ -28,5 +28,3 @@ function twoSum(nums: number[], target: number): number[] {
   throw new Error('No solution found.');
 }
 // @lc code=end
-
-export { twoSum };
