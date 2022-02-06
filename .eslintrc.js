@@ -11,5 +11,6 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'warn',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    'no-console': 'warn',
   },
 };
