@@ -14,3 +14,4 @@ A repository containing my solutions to [LeetCode's problems set](https://leetco
 ## Problems solved so far
 
 1. [Two Sum](https://leetcode.com/problems/two-sum/)
+2. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
