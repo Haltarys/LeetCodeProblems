@@ -12,7 +12,19 @@
  */
 // @lc code=start
 function lengthOfLongestSubstring(s: string): number {
-  return s.length;
+  if (s.length < 2) return s.length;
+
+  let test = '',
+    max = 0;
+
+  for (const c of s) {
+    if (test.includes(c)) test = test.substring(test.indexOf(c) + 1);
+
+    test += c;
+    max = Math.max(max, test.length);
+  }
+
+  return max;
 }
 // @lc code=end
 
