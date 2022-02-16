@@ -10,7 +10,6 @@
  * @param s A string of characters.
  * @returns The length of the longest substring in `s` without repeating characters.
  */
-
 // @lc code=start
 function lengthOfLongestSubstring(s: string): number {
   return s.length;
