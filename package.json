@@ -1,7 +1,6 @@
 {
   "name": "leetcode-problems",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:Haltarys/LeetCodeProblems.git",
   "author": "Haltarys <gregoire.haardt@gmail.com>",
   "license": "MIT",
