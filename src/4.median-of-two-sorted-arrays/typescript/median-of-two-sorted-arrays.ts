@@ -10,6 +10,7 @@ import { findMedianOfSortedArray } from './median-of-sorted-array';
  * Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, returns the median of the two sorted arrays.
  * @param nums1 A sorted array of up to 1000 elements.
  * @param nums2 A sorted array of up to 1000 elements.
+ * @returns The median value of the two sorted arrays.
  */
 // @lc code=start
 function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
